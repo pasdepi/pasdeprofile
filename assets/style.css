@@ -1,1 +1,50 @@
+body {
+    background-color: #9fd4ff;
+}
 
+.main {
+    background-color: #fff;
+    position: absolute;
+    height: 300px;
+    width: 700px;
+    border-radius: 10px;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-title {
+    text-align: left;
+    padding: 10px 20px 10px 20px;
+    border-bottom: 2px solid rgb(226, 226, 226);
+    margin-top: 0;
+}
+
+.main-content {
+    padding: 0px 10px 0px 10px;
+}
+
+.bar {
+    background-color: rgb(250, 241, 215);
+    overflow: hidden;
+    position: relative;
+    text-align: right;
+
+    cursor: move;
+}
+
+.X {
+    padding: 5px 15px 5px 15px;
+    background-color: rgb(236, 93, 93);
+    border: none;
+}
+
+.X:hover {
+    background-color: rgb(230, 79, 91);
+}
+
+.X:active {
+    background-color: rgb(197, 51, 63);;
+}
