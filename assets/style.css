@@ -11,6 +11,7 @@ body {
     margin: 0px;
     padding: 0px;
     overflow: hidden;
+    box-shadow: 5px 5px 10px #3868af;
 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
