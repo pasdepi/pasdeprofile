@@ -39,6 +39,8 @@ body {
     padding: 5px 15px 5px 15px;
     background-color: rgb(236, 93, 93);
     border: none;
+
+    cursor: pointer;
 }
 
 .X:hover {
