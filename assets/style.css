@@ -1,6 +1,9 @@
 body {
     background-color: #9fd4ff;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 html, body {
@@ -11,8 +14,6 @@ html, body {
 .main {
     background-color: #fff;
     position: absolute;
-    height: 300px;
-    width: 700px;
     border-radius: 10px;
     margin: 0px;
     padding: 0px;
@@ -39,7 +40,11 @@ html, body {
     position: relative;
     text-align: right;
 
-    cursor: move;
+    cursor: grab;
+}
+
+.bar:active {
+    cursor: grabbing;
 }
 
 .X {
@@ -70,4 +75,52 @@ html, body {
 
 .pasdeicon:hover {
     background-color: #89b8ff;
+}
+
+.pasdeicon:active {
+    background-color: #afcfff;
+}
+
+.page-container {
+    display: flex;
+}
+
+.page {
+    background-color: rgb(255, 199, 192);
+    margin: 20px 20px 20px 20px;
+    padding: 0px 20px 20px 20px;
+
+    text-align: center;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+}
+
+.page:hover {
+    background-color: rgb(255, 190, 188);
+}
+
+.page:active {
+    background-color: rgb(255, 159, 156);
+}
+
+.page a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.page-title {
+    margin: 0;
+    padding: 15px 0 15px 0;
+}
+
+
+.page-image {
+    width: 100%;
+    height: auto;
 }
