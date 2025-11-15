@@ -42,6 +42,8 @@ function dragElement(elmnt) {
 document.getElementById("pasdeicon").addEventListener("click", () => {
     const main = document.getElementById("main");
     main.style.display = "inline";
+    main.style.top = "50px"
+    main.style.left = "50px"
 });
 
 
