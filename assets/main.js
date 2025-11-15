@@ -9,11 +9,11 @@ function dragElement(elmnt) {
 
     const closeButton = document.querySelector(".X");
     if (closeButton) {
-        closeButton.addEventListener("click", e => {
-            e.stopPropagation(); 
+        closeButton.addEventListener("click", e => { 
+            e.stopPropagation();
             elmnt.style.display = "none";
         });
-    }
+    } 
 
     function dragMouseDown(e) {
         e.preventDefault();
@@ -38,3 +38,11 @@ function dragElement(elmnt) {
         document.removeEventListener("mouseup", closeDragElement);
     }
 }
+
+document.getElementById("pasdeicon").addEventListener("click", () => {
+    const main = document.getElementById("main");
+    main.style.display = "inline";
+});
+
+
+

@@ -1,5 +1,11 @@
 body {
     background-color: #9fd4ff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html, body {
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .main {
@@ -12,8 +18,8 @@ body {
     padding: 0px;
     overflow: hidden;
     box-shadow: 5px 5px 10px #3868af;
-
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 50px;
+    left: 50px;
 }
 
 .main-title {
@@ -50,4 +56,18 @@ body {
 
 .X:active {
     background-color: rgb(197, 51, 63);;
+}
+
+.icon {
+    height: 10%;
+}
+
+.pasdeicon {
+    cursor: pointer;
+    padding: 5px 5px 5px 5px;
+    width: min-content;
+}
+
+.pasdeicon:hover {
+    background-color: #89b8ff;
 }
